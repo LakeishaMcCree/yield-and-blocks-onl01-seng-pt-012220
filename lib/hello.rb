@@ -9,7 +9,6 @@ end
 
 hello_t(["Tim", "Tom", "Jim"]) do |name|
   if name.start_with?("T")
-    elsif block_given?
     puts "Hi, #{name}"
   end
 end
